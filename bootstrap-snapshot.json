@@ -1,0 +1,831 @@
+{
+    "clientJvm17Arguments": [
+        "-XX:+DisableAttachMechanism",
+        "-Xmx1g",
+        "-Xss2m",
+        "-XX:CompileThreshold=1500",
+        "--add-opens=java.desktop/sun.awt=ALL-UNNAMED",
+        "-Dawt.useSystemAAFontSettings=on",
+        "-Dswing.aatext=true"
+    ],
+    "launcherJvm17Arguments": [
+        "-XX:+DisableAttachMechanism",
+        "-Drunelite.launcher.nojvm=true",
+        "-Xmx1g",
+        "-Xss2m",
+        "-XX:CompileThreshold=1500",
+        "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
+    ],
+    "buildCommit": "0003f070ab1d373dcdb09c95a8ed9a03e1d85803",
+    "launcherJvm11Arguments": [
+        "-XX:+DisableAttachMechanism",
+        "-Drunelite.launcher.nojvm=true",
+        "-Xmx1g",
+        "-Xss2m",
+        "-XX:CompileThreshold=1500"
+    ],
+    "dependencyHashes": {
+        "ktor-network-tls-jvm-2.3.6.jar": "7a5a7a89615c1fdbe810a377072c09c91c5ae71efe3df13841a353005874e265",
+        "kotlinx-serialization-json-jvm-1.6.1.jar": "8d2718bb042e830b12b7fb10af26d0fba43de1f1f9ffe0a6b131d4d251aac2cc",
+        "aerogear-otp-java-1.0.0.jar": "161b18950d103fe0325b2dc897f0c121f663cac94b5742cd62b97a9b36f15b63",
+        "logback-core-1.2.9.jar": "4a9ef7ed809b1fbc6992bf87d404087c247e7a9766e25bb84377b58ed5c9eb58",
+        "slf4j-api-1.7.36.jar": "d3ef575e3e4979678dc01bf1dcce51021493b4d11fb7f1be8ad982877c16a1c0",
+        "desktopsupport-0.6.0.jar": "45726bd470f9d2507fbb0c96a11cf8eca0f902069d1b256bb038f125822ea290",
+        "java-semver-0.9.0.jar": "2218c73b40f9af98b570d084420c1b4a81332297bd7fc27ddd552e903be8e93c",
+        "kotlinx-coroutines-jdk8-1.7.1.jar": "b96f7145ba69b48f4940534cb8e19c7e159c45443e27c36821626148ba1710f2",
+        "annotations-23.0.0.jar": "7b0f19724082cbfcbc66e5abea2b9bc92cf08a1ea11e191933ed43801eb3cd05",
+        "failureaccess-1.0.1.jar": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26",
+        "ktor-client-core-jvm-2.3.6.jar": "17c46a56a128c54dc989160bd6d87b5101e8c64b801a91b4e4332ec299b0ebcb",
+        "lwjgl-opengl-3.3.2-natives-windows-arm64.jar": "f8ab8ceac5a5b3e53f59ef4c717c3d4434cb7fa33969f240489d539f572c33b0",
+        "guava-30.1.1-jre.jar": "44ce229ce26d880bf3afc362bbfcec34d7e6903d195bbb1db9f3b6e0d9834f06",
+        "lwjgl-3.3.2.jar": "f8016606e74f3cafd63eae07b1331f903f999c9f40726c838399a144c3809217",
+        "kotlinx-coroutines-core-jvm-1.7.1.jar": "7496cffdd3eb10109acdda1c3212f6ac7815789e09380dc9e2ccdec496dba3fc",
+        "commons-lang3-3.11.jar": "4ee380259c068d1dbe9e84ab52186f2acd65de067ec09beff731fca1697fdb16",
+        "ktor-serialization-jvm-2.3.6.jar": "52d1b88873224b3d551512deb0ba8ec8ceccd05693a1bd603d976c85888550b3",
+        "runespawn-http-api-client-1.0.16-STABLE.jar": "1f9ba77a7ea730664c8f3e64058cac8f7d37179da7e82faecd5bb9e21beefb0e",
+        "lwjgl-3.3.2-natives-windows-x86.jar": "21e6f5c1c68a171398daf7785ffb2797da89242f90d19e24236563f7c0b1f7e0",
+        "kotlin-stdlib-jdk7-1.8.22.jar": "055f5cb24287fa106100995a7b47ab92126b81e832e875f5fa2cf0bd55693d0b",
+        "http-api-1.0.16-STABLE.jar": "45fda37939a14f9d5e47d17e5a5aad8d613d2d63391c8dd2f0f485a0b85877f5",
+        "engine.io-client-1.0.0.jar": "191a5c2d777c22d258d414f94ff96a6620a93a38beec29a63c2c172794c87f0f",
+        "rlawt-1.4.jar": "1efad07ade0ca6231c9870718f318950cce2e1c8da8b91e317067b616ce14a36",
+        "lwjgl-opengl-3.3.2-natives-linux.jar": "8956bca64d2851dc14ec6bfbfc55ce35fdff89270b5f2a3c9f70aea77f6d1e17",
+        "socket.io-client-1.0.0.jar": "5b048755cef24079e1ec1795f6ed0935422ed887786192811c2008bda0a2caf2",
+        "discord-1.4.jar": "6409723fd13496386dfb1335a9794dc0919db6132522f2b7486d6734fc5df6e5",
+        "ktor-network-jvm-2.3.6.jar": "1b379f2ed8f1ea38f6538c9fd0468c6354affd9ef4b8b537f1b02ff8c6bdff31",
+        "kotlin-stdlib-1.9.20.jar": "28a35bcdff46d864f80f346a617e486284b208d17378c41900dfb1de95a90e6c",
+        "commons-io-2.8.0.jar": "02f291e5d1243dc143496e3cbbb40a1ced47aa58f2d633d3e38780cd068d5074",
+        "ktor-websockets-jvm-2.3.6.jar": "bd3c611fc11865ce50aa83cac77840a4354da827af6d3f862472ab2ec7936115",
+        "jna-platform-5.9.0.jar": "1903bc6d87f3ab92023957b91f45a9c8eb3515bad030356ce977201e5141b724",
+        "runelite-jshell-1.0.16-STABLE.jar": "c43ca16787899a1ec20ed2f9350e92e35908cd8d762e21788b1140fde9a5ef51",
+        "logback-classic-1.2.9.jar": "ad745cc243805800d1ebbf5b7deba03b37c95885e6bce71335a73f7d6d0f14ee",
+        "jna-5.9.0.jar": "eafcc780b445434d3c5ae7fa2fb6665de1a7560d537d2c408a8e80cd14d27161",
+        "jocl-1.0-macos-arm64.jar": "4fb96241f95970bd329ef03af1e9c94a9114e91a571523bcaf2af66bee2f2bfa",
+        "pf4j-3.6.0.jar": "d0a653658b736f1916550a4e026a0ec24ccbde2a9b613a341588c4d7544643f4",
+        "miglayout-3.7.4.jar": "f3bf5ab4041767da532e11e78a49a183da499d1a54ba539232d833b75f965667",
+        "lwjgl-3.3.2-natives-windows-arm64.jar": "1575d4e2e789b411b3a193ac04a2c2d53dbc504de80a560578191c1c7d79e5ee",
+        "error_prone_annotations-2.5.1.jar": "ff80626baaf12a09342befd4e84cba9d50662f5fcd7f7a9b3490a6b7cf87e66c",
+        "jsr305-3.0.2.jar": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7",
+        "trident-1.5.00.jar": "3214e1c23d549d5d67c91da4da1ef33c5248470bb824f91cbe8f9e0beea59eef",
+        "runescape-api-1.0.16-STABLE.jar": "ca303f5d22068d60f52294e0548fdbc5ada847363e8566c52f8fd9dca4a9504d",
+        "kotlinx-serialization-protobuf-jvm-1.6.1.jar": "82e7e5b8101f7a78842f8b47aed783019f7efeac8123f8e3eaba70616e9c2565",
+        "lwjgl-opengl-3.3.2.jar": "0ebaaf92d306c946ce9d3db25496b9068b7aab782b15966be2544b6a24838038",
+        "pf4j-update-2.3.0.jar": "79c9d6240cda82c3d31ee7a5722b635a3d37ad58c124a4db0ddea40145c30f45",
+        "runespawn-public-plugins-1.0.16-STABLE.jar": "03ad38fbc4e8607425c427ef6066fe1822e307c9142993a60950c4722f729890",
+        "runespawn-game-api-jvm-0.1.0.jar": "b4256e23fcb0b3df3c952f2016b9ac506e30d471a076d93aaf3d40129c539efe",
+        "jnativehook-2.2.2.jar": "2c7904423bc680af02d9ea9557ae233c35199e302d072773a9d0304b568acd41",
+        "jgroups-5.2.2.Final.jar": "cfee5822e342c4018b9c71acc6aac0e23910f1b04725a0e44fe9f94ef2dc3f1e",
+        "rsyntaxtextarea-3.1.2.jar": "5333ffa1166c54853d784943c5c44326a5e27e1613de2c07819ae12afe207097",
+        "ktor-http-jvm-2.3.6.jar": "3746af8f014313bffb07010dc19ff1a915d6ed26f6c30fa4a48887f001807b44",
+        "ktor-events-jvm-2.3.6.jar": "d11ba69b1af157b873e273479eb291cf8cd8fd1d047e2d33e30e3eaced519452",
+        "ktor-client-resources-jvm-2.3.6.jar": "8afb7af47fba4f4b684d0ff82cc447c72663d373917aa80f1cd3b0a19091bcc2",
+        "ktor-client-content-negotiation-jvm-2.3.6.jar": "3fb42b2bcb9840c7c96b628d5f87a4e6cf713997c5ba01ddf7fba837bdd63075",
+        "lwjgl-opengl-3.3.2-natives-windows-x86.jar": "c3a32053bb4c042489f40936926487cdaf33089185b847fb298b84a62b5703ff",
+        "kotlinx-coroutines-slf4j-1.7.1.jar": "fbb40ca7e55a78017feac897180be64f562a2eb781c6a3f6c9bb2ff88d92223f",
+        "commons-text-1.9.jar": "0812f284ac5dd0d617461d9a2ab6ac6811137f25122dfffd4788a4871e732d00",
+        "gson-2.8.5.jar": "233a0149fc365c9f6edbd683cfe266b19bdc773be98eabdaf6b3c924b48e7d81",
+        "classgraph-4.8.157.jar": "38be6bbbbb06110f7683dc4b04964d9ca4d32fdeeace58169aab8f16b592aabe",
+        "ktor-websocket-serialization-jvm-2.3.6.jar": "5078bdfb5e0e8d7fedd0f0e9d2001f5909097f219fe886e61d4a17f9de7b546e",
+        "kotlinx-datetime-jvm-0.4.0.jar": "075ca75a16e356484c07de3cc7bce79da9e4adbc670bbcf23c5e13f4e12ee6e7",
+        "ktor-io-jvm-2.3.6.jar": "efcd9f4451ac800e9e4002ebd758f6627ff4fe84cb9e80a8c62220904d244021",
+        "ktor-utils-jvm-2.3.6.jar": "008d9ecfa81283d5efa06c8ef3396b192bcbac17044c6f8d6f319e30fe1fcb23",
+        "jocl-1.0-macos-x64.jar": "2bcb853daff68fe4faed28f871624a428c5db90f9e3ecb4286df8aeca4b93b38",
+        "lwjgl-opencl-3.3.2.jar": "da0392abcea5121f5edd9042012600584ac628f4a18fcf5c1bce60f3f9f6a33a",
+        "ktor-resources-jvm-2.3.6.jar": "4e39355ef6cf7c436c9138a14aae8bcfca4a76ff72fc829b68377e6f4b84aa89",
+        "kotlin-stdlib-jdk8-1.8.22.jar": "4198b0eaf090a4f25b6f7e5a59581f4314ba8c9f6cd1d13ee9d348e65ed8f707",
+        "ktor-client-logging-jvm-2.3.6.jar": "0ccfd56222cd54a9694fca56fbccb9d896c5cbfa3c2cca52e7117371cbf61abf",
+        "reactive-streams-1.0.3.jar": "1dee0481072d19c929b623e155e14d2f6085dc011529a0a0dbefc84cf571d865",
+        "rxjava-3.1.2.jar": "8d784075bec0b7c55042c109a4de8923b3b6d2ebd2e00912d518f07240f9c23a",
+        "guice-5.0.1.jar": "3bae18be3e0f0940375d1ebdd2f3b84d87ae16026ae663b2f5d4667fe5b04036",
+        "okio-jvm-2.8.0.jar": "4496b06e73982fcdd8a5393f46e5df2ce2fa4465df5895454cac68a32f09bbc8",
+        "checker-qual-3.8.0.jar": "c88c2e6a5fdaeb9f26fcf879264042de8a9ee9d376e2477838feaabcfa44dda6",
+        "lwjgl-opengl-3.3.2-natives-macos-arm64.jar": "3120ecbcccf31f36064f260fa0127b4a359097a294ac5b3e7675d1867168f2e6",
+        "commons-codec-1.10.jar": "4241dfa94e711d435f29a4604a3e2de5c4aa3c165e23bd066be6fc1fc4309569",
+        "runelite-client-1.0.16-STABLE.jar": "f03982668bdfbe894f37431074862f5615e0c14f95f7aec35b4e9c2fd55a41f7",
+        "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99",
+        "substance-8.0.02.jar": "0467d25f408428824d5c9c09ec60ee1f0bc341d9bf48971a77fd14939a826c83",
+        "commons-csv-1.9.0.jar": "c418d6aab4db4f1f70983d355de8d7c1e755c754820a92294da2e5f5081022cc",
+        "autocomplete-3.1.1.jar": "c28575ea4256ce6fce57e820fd467b851c2bd4d816c8c51c24699ef832f91f7d",
+        "okhttp-4.9.1.jar": "6afdd8f35f4eb60df965c290fa3acf29443fa986545113d0729b8461f6571f8f",
+        "jopt-simple-5.0.4.jar": "df26cc58f235f477db07f753ba5a3ab243ebe5789d9f89ecf68dd62ea9a66c28",
+        "javax.inject-1.jar": "91c77044a50c481636c32d916fd89c9118a72195390452c81065080f957de7ff",
+        "protobuf-javalite-3.21.12.jar": "cf678ab3fbc992f4b4654a86c03557c21904d635202b67688fcb2eca442c2d40",
+        "lwjgl-3.3.2-natives-macos.jar": "62603b9a92c789f0beb8ec25052f278d6f9ce02c6687c8f1afbc7483da54131a",
+        "lwjgl-3.3.2-natives-macos-arm64.jar": "ebb8474ad3c19b906649ac41cef62314fd9b355cea5509d9be0c8728db7a6c38",
+        "json-20090211.jar": "055be110a570f9cda3eba8d70a006ff46c77a048bc67868524879211c48b330a",
+        "jocl-1.0.jar": "126bde4a6be269579a84a67dfc7707fd2916e0eef11b74c4de7cc61a36d2420e",
+        "runelite-api-1.0.16-STABLE.jar": "ff9a1b9b75aec384f58158c286269553275292a193b5b0b7c01e7fec7e0115d3",
+        "lwjgl-3.3.2-natives-linux.jar": "89f53089a5f8a983db25140a1c94c72fe2a8f56feb6ddb597f55b8329ce5b400",
+        "ktor-serialization-kotlinx-jvm-2.3.6.jar": "0cd81926f83570a20c1afa0d028d07953ed4da15eaaa36976d13ee98b1169543",
+        "ktor-client-cio-jvm-2.3.6.jar": "1d192b8f2511fbbbc19a600b9760005bf26717a236169078011a944445cbf199",
+        "kotlinx-serialization-core-jvm-1.6.1.jar": "1a30644eb263210a4de31f51a2edddf4ed39ae7c22fc955fb58256cbe1e98b3b",
+        "lwjgl-3.3.2-natives-windows.jar": "ebc65354b64a33659cc642446dc15c6d62a4bd0ae15c9a6a4a3adbcd71f1f690",
+        "aopalliance-1.0.jar": "0addec670fedcd3f113c5c8091d783280d23f75e3acb841b61a9cdb079376a08",
+        "ktor-client-websockets-jvm-2.3.6.jar": "a51194bab3232def9c986ffc5d21e36f0afb1a0162da8b586d195e14e543a2a2",
+        "lwjgl-opengl-3.3.2-natives-macos.jar": "0c6a78c4e696deaddefd8346b4c13883704b36a890003075a33ccba2d1a13c2d",
+        "lwjgl-opengl-3.3.2-natives-windows.jar": "0275a42f91c6bc5f08bdc1f7c7e263058cc99dbed7c710a025e4ad175e9a0edd",
+        "ktor-http-cio-jvm-2.3.6.jar": "adb54beedb7650f255fbbc33c649699f1041640b0a7a4dc1d9326d18bfa7e161",
+        "ktor-serialization-kotlinx-json-jvm-2.3.6.jar": "13dae1b65f38d51387e716aba35fc443f3038a9264a41e4a98923c2fcfecb004",
+        "gluegen-rt-2.4.0-rc-20220318.jar": "ba22a3338a3dea346801f5ae4a0341fc13f59bf4b02d54d575a6f0399a30e8b2",
+        "j2objc-annotations-1.3.jar": "21af30c92267bd6122c0e0b4d20cccb6641a37eaf956c6540ec471d584e64a7b",
+        "rxrelay-3.0.1.jar": "f47904873d4d2b7d71b22a7ec6424b40f69b33cb0342a48a94b0be3fdeb70bc5"
+    },
+    "launcherJvm17MacArguments": [
+        "-XX:+DisableAttachMechanism",
+        "-Drunelite.launcher.nojvm=true",
+        "-Xmx1g",
+        "-Xss2m",
+        "-XX:CompileThreshold=1500",
+        "--add-opens=java.desktop/sun.awt=ALL-UNNAMED",
+        "--add-opens=java.desktop/com.apple.eawt=ALL-UNNAMED"
+    ],
+    "clientJvmArguments": [
+        "-XX:+DisableAttachMechanism",
+        "-Xmx1g",
+        "-Xss2m",
+        "-XX:CompileThreshold=1500",
+        "-Xincgc",
+        "-XX:+UseConcMarkSweepGC",
+        "-XX:+UseParNewGC",
+        "-Dawt.useSystemAAFontSettings=on",
+        "-Dswing.aatext=true"
+    ],
+    "launcherArguments": [
+        "-XX:+DisableAttachMechanism",
+        "-Drunelite.launcher.nojvm=true",
+        "-Xmx1g",
+        "-Xss2m",
+        "-XX:CompileThreshold=1500",
+        "-Xincgc",
+        "-XX:+UseConcMarkSweepGC",
+        "-XX:+UseParNewGC"
+    ],
+    "launcherJvm17WindowsArguments": [
+        "-XX:+DisableAttachMechanism",
+        "-Drunelite.launcher.nojvm=true",
+        "-Drunelite.launcher.blacklistedDlls=RTSSHooks.dll,RTSSHooks64.dll,NahimicOSD.dll,k_fps32.dll,k_fps64.dll",
+        "-Xmx1g",
+        "-Xss2m",
+        "-XX:CompileThreshold=1500",
+        "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
+    ],
+    "minimumLauncherVersion": "1.0.0",
+    "launcherJvm11WindowsArguments": [
+        "-XX:+DisableAttachMechanism",
+        "-Drunelite.launcher.nojvm=true",
+        "-Drunelite.launcher.blacklistedDlls=RTSSHooks.dll,RTSSHooks64.dll,NahimicOSD.dll,k_fps32.dll,k_fps64.dll",
+        "-Xmx1g",
+        "-Xss2m",
+        "-XX:CompileThreshold=1500"
+    ],
+    "clientJvm9Arguments": [
+        "-XX:+DisableAttachMechanism",
+        "-Xmx1g",
+        "-Xss2m",
+        "-XX:CompileThreshold=1500",
+        "-Dawt.useSystemAAFontSettings=on",
+        "-Dswing.aatext=true"
+    ],
+    "clientJvm17MacArguments": [
+        "-XX:+DisableAttachMechanism",
+        "-Xmx1g",
+        "-Xss2m",
+        "-XX:CompileThreshold=1500",
+        "--add-opens=java.desktop/sun.awt=ALL-UNNAMED",
+        "--add-opens=java.desktop/com.apple.eawt=ALL-UNNAMED",
+        "-Dawt.useSystemAAFontSettings=on",
+        "-Dswing.aatext=true"
+    ],
+    "projectVersion": "1.0.16-STABLE",
+    "artifacts": [
+        {
+            "path": "https://raw.githubusercontent.com/RuneSpawn/runespawn-hosting/master/snapshot/runescape-api-1.0.16-STABLE.jar",
+            "size": 132579,
+            "name": "runescape-api-1.0.16-STABLE.jar",
+            "hash": "ca303f5d22068d60f52294e0548fdbc5ada847363e8566c52f8fd9dca4a9504d"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/RuneSpawn/runespawn-hosting/master/snapshot/runelite-api-1.0.16-STABLE.jar",
+            "size": 1430895,
+            "name": "runelite-api-1.0.16-STABLE.jar",
+            "hash": "ff9a1b9b75aec384f58158c286269553275292a193b5b0b7c01e7fec7e0115d3"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/RuneSpawn/runespawn-hosting/master/snapshot/http-api-1.0.16-STABLE.jar",
+            "size": 97145,
+            "name": "http-api-1.0.16-STABLE.jar",
+            "hash": "45fda37939a14f9d5e47d17e5a5aad8d613d2d63391c8dd2f0f485a0b85877f5"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/RuneSpawn/runespawn-hosting/master/snapshot/runespawn-public-plugins-1.0.16-STABLE.jar",
+            "size": 6026,
+            "name": "runespawn-public-plugins-1.0.16-STABLE.jar",
+            "hash": "03ad38fbc4e8607425c427ef6066fe1822e307c9142993a60950c4722f729890"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/RuneSpawn/runespawn-hosting/master/snapshot/runespawn-http-api-client-1.0.16-STABLE.jar",
+            "size": 31081,
+            "name": "runespawn-http-api-client-1.0.16-STABLE.jar",
+            "hash": "1f9ba77a7ea730664c8f3e64058cac8f7d37179da7e82faecd5bb9e21beefb0e"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/RuneSpawn/runespawn-hosting/master/snapshot/runelite-jshell-1.0.16-STABLE.jar",
+            "size": 23348,
+            "name": "runelite-jshell-1.0.16-STABLE.jar",
+            "hash": "c43ca16787899a1ec20ed2f9350e92e35908cd8d762e21788b1140fde9a5ef51"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.2.9/logback-classic-1.2.9.jar",
+            "size": 233855,
+            "name": "logback-classic-1.2.9.jar",
+            "hash": "ad745cc243805800d1ebbf5b7deba03b37c95885e6bce71335a73f7d6d0f14ee"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/pf4j/pf4j-update/2.3.0/pf4j-update-2.3.0.jar",
+            "size": 25736,
+            "name": "pf4j-update-2.3.0.jar",
+            "hash": "79c9d6240cda82c3d31ee7a5722b635a3d37ad58c124a4db0ddea40145c30f45"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar",
+            "size": 241622,
+            "name": "gson-2.8.5.jar",
+            "hash": "233a0149fc365c9f6edbd683cfe266b19bdc773be98eabdaf6b3c924b48e7d81"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/com/google/inject/guice/5.0.1/guice-5.0.1.jar",
+            "size": 773293,
+            "name": "guice-5.0.1.jar",
+            "hash": "3bae18be3e0f0940375d1ebdd2f3b84d87ae16026ae663b2f5d4667fe5b04036"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar",
+            "size": 2874025,
+            "name": "guava-30.1.1-jre.jar",
+            "hash": "44ce229ce26d880bf3afc362bbfcec34d7e6903d195bbb1db9f3b6e0d9834f06"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.157/classgraph-4.8.157.jar",
+            "size": 564333,
+            "name": "classgraph-4.8.157.jar",
+            "hash": "38be6bbbbb06110f7683dc4b04964d9ca4d32fdeeace58169aab8f16b592aabe"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-javalite/3.21.12/protobuf-javalite-3.21.12.jar",
+            "size": 703181,
+            "name": "protobuf-javalite-3.21.12.jar",
+            "hash": "cf678ab3fbc992f4b4654a86c03557c21904d635202b67688fcb2eca442c2d40"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/com/jakewharton/rxrelay3/rxrelay/3.0.1/rxrelay-3.0.1.jar",
+            "size": 28351,
+            "name": "rxrelay-3.0.1.jar",
+            "hash": "f47904873d4d2b7d71b22a7ec6424b40f69b33cb0342a48a94b0be3fdeb70bc5"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/io/socket/socket.io-client/1.0.0/socket.io-client-1.0.0.jar",
+            "size": 63004,
+            "name": "socket.io-client-1.0.0.jar",
+            "hash": "5b048755cef24079e1ec1795f6ed0935422ed887786192811c2008bda0a2caf2"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/io/socket/engine.io-client/1.0.0/engine.io-client-1.0.0.jar",
+            "size": 106072,
+            "name": "engine.io-client-1.0.0.jar",
+            "hash": "191a5c2d777c22d258d414f94ff96a6620a93a38beec29a63c2c172794c87f0f"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/4.9.1/okhttp-4.9.1.jar",
+            "size": 791390,
+            "name": "okhttp-4.9.1.jar",
+            "hash": "6afdd8f35f4eb60df965c290fa3acf29443fa986545113d0729b8461f6571f8f"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/io/reactivex/rxjava3/rxjava/3.1.2/rxjava-3.1.2.jar",
+            "size": 2654933,
+            "name": "rxjava-3.1.2.jar",
+            "hash": "8d784075bec0b7c55042c109a4de8923b3b6d2ebd2e00912d518f07240f9c23a"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/jgroups/jgroups/5.2.2.Final/jgroups-5.2.2.Final.jar",
+            "size": 2192603,
+            "name": "jgroups-5.2.2.Final.jar",
+            "hash": "cfee5822e342c4018b9c71acc6aac0e23910f1b04725a0e44fe9f94ef2dc3f1e"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.9.0/jna-platform-5.9.0.jar",
+            "size": 1343236,
+            "name": "jna-platform-5.9.0.jar",
+            "hash": "1903bc6d87f3ab92023957b91f45a9c8eb3515bad030356ce977201e5141b724"
+        },
+        {
+            "path": "https://repo.runelite.net/net/runelite/discord/1.4/discord-1.4.jar",
+            "size": 681590,
+            "name": "discord-1.4.jar",
+            "hash": "6409723fd13496386dfb1335a9794dc0919db6132522f2b7486d6734fc5df6e5"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar",
+            "size": 1729586,
+            "name": "jna-5.9.0.jar",
+            "hash": "eafcc780b445434d3c5ae7fa2fb6665de1a7560d537d2c408a8e80cd14d27161"
+        },
+        {
+            "path": "https://repo.runelite.net/net/runelite/rlawt/1.4/rlawt-1.4.jar",
+            "size": 222488,
+            "name": "rlawt-1.4.jar",
+            "hash": "1efad07ade0ca6231c9870718f318950cce2e1c8da8b91e317067b616ce14a36"
+        },
+        {
+            "path": "https://repo.runelite.net/net/runelite/pushingpixels/substance/8.0.02/substance-8.0.02.jar",
+            "size": 1589195,
+            "name": "substance-8.0.02.jar",
+            "hash": "0467d25f408428824d5c9c09ec60ee1f0bc341d9bf48971a77fd14939a826c83"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar",
+            "size": 78146,
+            "name": "jopt-simple-5.0.4.jar",
+            "hash": "df26cc58f235f477db07f753ba5a3ab243ebe5789d9f89ecf68dd62ea9a66c28"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/madlonkay/desktopsupport/0.6.0/desktopsupport-0.6.0.jar",
+            "size": 68163,
+            "name": "desktopsupport-0.6.0.jar",
+            "hash": "45726bd470f9d2507fbb0c96a11cf8eca0f902069d1b256bb038f125822ea290"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.9/commons-text-1.9.jar",
+            "size": 216211,
+            "name": "commons-text-1.9.jar",
+            "hash": "0812f284ac5dd0d617461d9a2ab6ac6811137f25122dfffd4788a4871e732d00"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-csv/1.9.0/commons-csv-1.9.0.jar",
+            "size": 51322,
+            "name": "commons-csv-1.9.0.jar",
+            "hash": "c418d6aab4db4f1f70983d355de8d7c1e755c754820a92294da2e5f5081022cc"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar",
+            "size": 285424,
+            "name": "commons-io-2.8.0.jar",
+            "hash": "02f291e5d1243dc143496e3cbbb40a1ced47aa58f2d633d3e38780cd068d5074"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/RuneSpawn/runespawn-hosting/master/snapshot/runespawn-game-api-jvm-0.1.0.jar",
+            "size": 1348794,
+            "name": "runespawn-game-api-jvm-0.1.0.jar",
+            "hash": "b4256e23fcb0b3df3c952f2016b9ac506e30d471a076d93aaf3d40129c539efe"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/com/squareup/okio/okio/2.8.0/okio-2.8.0.jar",
+            "size": 243179,
+            "name": "okio-jvm-2.8.0.jar",
+            "hash": "4496b06e73982fcdd8a5393f46e5df2ce2fa4465df5895454cac68a32f09bbc8"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/io/ktor/ktor-client-resources-jvm/2.3.6/ktor-client-resources-jvm-2.3.6.jar",
+            "size": 30131,
+            "name": "ktor-client-resources-jvm-2.3.6.jar",
+            "hash": "8afb7af47fba4f4b684d0ff82cc447c72663d373917aa80f1cd3b0a19091bcc2"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/io/ktor/ktor-serialization-kotlinx-json-jvm/2.3.6/ktor-serialization-kotlinx-json-jvm-2.3.6.jar",
+            "size": 24052,
+            "name": "ktor-serialization-kotlinx-json-jvm-2.3.6.jar",
+            "hash": "13dae1b65f38d51387e716aba35fc443f3038a9264a41e4a98923c2fcfecb004"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/io/ktor/ktor-serialization-kotlinx-jvm/2.3.6/ktor-serialization-kotlinx-jvm-2.3.6.jar",
+            "size": 34503,
+            "name": "ktor-serialization-kotlinx-jvm-2.3.6.jar",
+            "hash": "0cd81926f83570a20c1afa0d028d07953ed4da15eaaa36976d13ee98b1169543"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/io/ktor/ktor-resources-jvm/2.3.6/ktor-resources-jvm-2.3.6.jar",
+            "size": 23055,
+            "name": "ktor-resources-jvm-2.3.6.jar",
+            "hash": "4e39355ef6cf7c436c9138a14aae8bcfca4a76ff72fc829b68377e6f4b84aa89"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.6.1/kotlinx-serialization-json-jvm-1.6.1.jar",
+            "size": 258342,
+            "name": "kotlinx-serialization-json-jvm-1.6.1.jar",
+            "hash": "8d2718bb042e830b12b7fb10af26d0fba43de1f1f9ffe0a6b131d4d251aac2cc"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.6.1/kotlinx-serialization-core-jvm-1.6.1.jar",
+            "size": 419768,
+            "name": "kotlinx-serialization-core-jvm-1.6.1.jar",
+            "hash": "1a30644eb263210a4de31f51a2edddf4ed39ae7c22fc955fb58256cbe1e98b3b"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-protobuf-jvm/1.6.1/kotlinx-serialization-protobuf-jvm-1.6.1.jar",
+            "size": 101901,
+            "name": "kotlinx-serialization-protobuf-jvm-1.6.1.jar",
+            "hash": "82e7e5b8101f7a78842f8b47aed783019f7efeac8123f8e3eaba70616e9c2565"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/io/ktor/ktor-client-cio-jvm/2.3.6/ktor-client-cio-jvm-2.3.6.jar",
+            "size": 132268,
+            "name": "ktor-client-cio-jvm-2.3.6.jar",
+            "hash": "1d192b8f2511fbbbc19a600b9760005bf26717a236169078011a944445cbf199"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/io/ktor/ktor-client-content-negotiation-jvm/2.3.6/ktor-client-content-negotiation-jvm-2.3.6.jar",
+            "size": 27341,
+            "name": "ktor-client-content-negotiation-jvm-2.3.6.jar",
+            "hash": "3fb42b2bcb9840c7c96b628d5f87a4e6cf713997c5ba01ddf7fba837bdd63075"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/io/ktor/ktor-client-logging-jvm/2.3.6/ktor-client-logging-jvm-2.3.6.jar",
+            "size": 59607,
+            "name": "ktor-client-logging-jvm-2.3.6.jar",
+            "hash": "0ccfd56222cd54a9694fca56fbccb9d896c5cbfa3c2cca52e7117371cbf61abf"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/io/ktor/ktor-client-websockets-jvm/2.3.6/ktor-client-websockets-jvm-2.3.6.jar",
+            "size": 1896,
+            "name": "ktor-client-websockets-jvm-2.3.6.jar",
+            "hash": "a51194bab3232def9c986ffc5d21e36f0afb1a0162da8b586d195e14e543a2a2"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/io/ktor/ktor-client-core-jvm/2.3.6/ktor-client-core-jvm-2.3.6.jar",
+            "size": 835851,
+            "name": "ktor-client-core-jvm-2.3.6.jar",
+            "hash": "17c46a56a128c54dc989160bd6d87b5101e8c64b801a91b4e4332ec299b0ebcb"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-datetime-jvm/0.4.0/kotlinx-datetime-jvm-0.4.0.jar",
+            "size": 159973,
+            "name": "kotlinx-datetime-jvm-0.4.0.jar",
+            "hash": "075ca75a16e356484c07de3cc7bce79da9e4adbc670bbcf23c5e13f4e12ee6e7"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/io/ktor/ktor-events-jvm/2.3.6/ktor-events-jvm-2.3.6.jar",
+            "size": 7347,
+            "name": "ktor-events-jvm-2.3.6.jar",
+            "hash": "d11ba69b1af157b873e273479eb291cf8cd8fd1d047e2d33e30e3eaced519452"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/io/ktor/ktor-websocket-serialization-jvm/2.3.6/ktor-websocket-serialization-jvm-2.3.6.jar",
+            "size": 6908,
+            "name": "ktor-websocket-serialization-jvm-2.3.6.jar",
+            "hash": "5078bdfb5e0e8d7fedd0f0e9d2001f5909097f219fe886e61d4a17f9de7b546e"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/io/ktor/ktor-http-cio-jvm/2.3.6/ktor-http-cio-jvm-2.3.6.jar",
+            "size": 164253,
+            "name": "ktor-http-cio-jvm-2.3.6.jar",
+            "hash": "adb54beedb7650f255fbbc33c649699f1041640b0a7a4dc1d9326d18bfa7e161"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/io/ktor/ktor-serialization-jvm/2.3.6/ktor-serialization-jvm-2.3.6.jar",
+            "size": 24737,
+            "name": "ktor-serialization-jvm-2.3.6.jar",
+            "hash": "52d1b88873224b3d551512deb0ba8ec8ceccd05693a1bd603d976c85888550b3"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/io/ktor/ktor-websockets-jvm/2.3.6/ktor-websockets-jvm-2.3.6.jar",
+            "size": 177905,
+            "name": "ktor-websockets-jvm-2.3.6.jar",
+            "hash": "bd3c611fc11865ce50aa83cac77840a4354da827af6d3f862472ab2ec7936115"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/io/ktor/ktor-network-tls-jvm/2.3.6/ktor-network-tls-jvm-2.3.6.jar",
+            "size": 208330,
+            "name": "ktor-network-tls-jvm-2.3.6.jar",
+            "hash": "7a5a7a89615c1fdbe810a377072c09c91c5ae71efe3df13841a353005874e265"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/io/ktor/ktor-http-jvm/2.3.6/ktor-http-jvm-2.3.6.jar",
+            "size": 414281,
+            "name": "ktor-http-jvm-2.3.6.jar",
+            "hash": "3746af8f014313bffb07010dc19ff1a915d6ed26f6c30fa4a48887f001807b44"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-slf4j/1.7.1/kotlinx-coroutines-slf4j-1.7.1.jar",
+            "size": 4373,
+            "name": "kotlinx-coroutines-slf4j-1.7.1.jar",
+            "hash": "fbb40ca7e55a78017feac897180be64f562a2eb781c6a3f6c9bb2ff88d92223f"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/io/ktor/ktor-network-jvm/2.3.6/ktor-network-jvm-2.3.6.jar",
+            "size": 214304,
+            "name": "ktor-network-jvm-2.3.6.jar",
+            "hash": "1b379f2ed8f1ea38f6538c9fd0468c6354affd9ef4b8b537f1b02ff8c6bdff31"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/io/ktor/ktor-utils-jvm/2.3.6/ktor-utils-jvm-2.3.6.jar",
+            "size": 336197,
+            "name": "ktor-utils-jvm-2.3.6.jar",
+            "hash": "008d9ecfa81283d5efa06c8ef3396b192bcbac17044c6f8d6f319e30fe1fcb23"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/io/ktor/ktor-io-jvm/2.3.6/ktor-io-jvm-2.3.6.jar",
+            "size": 811613,
+            "name": "ktor-io-jvm-2.3.6.jar",
+            "hash": "efcd9f4451ac800e9e4002ebd758f6627ff4fe84cb9e80a8c62220904d244021"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.jar",
+            "size": 953,
+            "name": "kotlinx-coroutines-jdk8-1.7.1.jar",
+            "hash": "b96f7145ba69b48f4940534cb8e19c7e159c45443e27c36821626148ba1710f2"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.7.1/kotlinx-coroutines-core-jvm-1.7.1.jar",
+            "size": 1548432,
+            "name": "kotlinx-coroutines-core-jvm-1.7.1.jar",
+            "hash": "7496cffdd3eb10109acdda1c3212f6ac7815789e09380dc9e2ccdec496dba3fc"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar",
+            "size": 969,
+            "name": "kotlin-stdlib-jdk8-1.8.22.jar",
+            "hash": "4198b0eaf090a4f25b6f7e5a59581f4314ba8c9f6cd1d13ee9d348e65ed8f707"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar",
+            "size": 963,
+            "name": "kotlin-stdlib-jdk7-1.8.22.jar",
+            "hash": "055f5cb24287fa106100995a7b47ab92126b81e832e875f5fa2cf0bd55693d0b"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.20/kotlin-stdlib-1.9.20.jar",
+            "size": 1718949,
+            "name": "kotlin-stdlib-1.9.20.jar",
+            "hash": "28a35bcdff46d864f80f346a617e486284b208d17378c41900dfb1de95a90e6c"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar",
+            "size": 29371,
+            "name": "annotations-23.0.0.jar",
+            "hash": "7b0f19724082cbfcbc66e5abea2b9bc92cf08a1ea11e191933ed43801eb3cd05"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/pf4j/pf4j/3.6.0/pf4j-3.6.0.jar",
+            "size": 125230,
+            "name": "pf4j-3.6.0.jar",
+            "hash": "d0a653658b736f1916550a4e026a0ec24ccbde2a9b613a341588c4d7544643f4"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/com/github/zafarkhaja/java-semver/0.9.0/java-semver-0.9.0.jar",
+            "size": 46843,
+            "name": "java-semver-0.9.0.jar",
+            "hash": "2218c73b40f9af98b570d084420c1b4a81332297bd7fc27ddd552e903be8e93c"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+            "size": 41125,
+            "name": "slf4j-api-1.7.36.jar",
+            "hash": "d3ef575e3e4979678dc01bf1dcce51021493b4d11fb7f1be8ad982877c16a1c0"
+        },
+        {
+            "path": "https://repo.runelite.net/net/runelite/gluegen/gluegen-rt/2.4.0-rc-20220318/gluegen-rt-2.4.0-rc-20220318.jar",
+            "size": 360949,
+            "name": "gluegen-rt-2.4.0-rc-20220318.jar",
+            "hash": "ba22a3338a3dea346801f5ae4a0341fc13f59bf4b02d54d575a6f0399a30e8b2"
+        },
+        {
+            "path": "https://repo.runelite.net/net/runelite/jocl/jocl/1.0/jocl-1.0.jar",
+            "size": 67704,
+            "name": "jocl-1.0.jar",
+            "hash": "126bde4a6be269579a84a67dfc7707fd2916e0eef11b74c4de7cc61a36d2420e"
+        },
+        {
+            "path": "https://repo.runelite.net/net/runelite/jocl/jocl/1.0/jocl-1.0-macos-x64.jar",
+            "size": 59030,
+            "name": "jocl-1.0-macos-x64.jar",
+            "hash": "2bcb853daff68fe4faed28f871624a428c5db90f9e3ecb4286df8aeca4b93b38",
+            "platform": [
+                {
+                    "name": "macos",
+                    "arch": "x86_64"
+                }
+            ]
+        },
+        {
+            "path": "https://repo.runelite.net/net/runelite/jocl/jocl/1.0/jocl-1.0-macos-arm64.jar",
+            "size": 59579,
+            "name": "jocl-1.0-macos-arm64.jar",
+            "hash": "4fb96241f95970bd329ef03af1e9c94a9114e91a571523bcaf2af66bee2f2bfa",
+            "platform": [
+                {
+                    "name": "macos",
+                    "arch": "aarch64"
+                }
+            ]
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-opencl/3.3.2/lwjgl-opencl-3.3.2.jar",
+            "size": 238152,
+            "name": "lwjgl-opencl-3.3.2.jar",
+            "hash": "da0392abcea5121f5edd9042012600584ac628f4a18fcf5c1bce60f3f9f6a33a"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-opengl/3.3.2/lwjgl-opengl-3.3.2.jar",
+            "size": 928871,
+            "name": "lwjgl-opengl-3.3.2.jar",
+            "hash": "0ebaaf92d306c946ce9d3db25496b9068b7aab782b15966be2544b6a24838038"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-opengl/3.3.2/lwjgl-opengl-3.3.2-natives-linux.jar",
+            "size": 80464,
+            "name": "lwjgl-opengl-3.3.2-natives-linux.jar",
+            "hash": "8956bca64d2851dc14ec6bfbfc55ce35fdff89270b5f2a3c9f70aea77f6d1e17"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-opengl/3.3.2/lwjgl-opengl-3.3.2-natives-macos.jar",
+            "size": 41485,
+            "name": "lwjgl-opengl-3.3.2-natives-macos.jar",
+            "hash": "0c6a78c4e696deaddefd8346b4c13883704b36a890003075a33ccba2d1a13c2d"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-opengl/3.3.2/lwjgl-opengl-3.3.2-natives-macos-arm64.jar",
+            "size": 42490,
+            "name": "lwjgl-opengl-3.3.2-natives-macos-arm64.jar",
+            "hash": "3120ecbcccf31f36064f260fa0127b4a359097a294ac5b3e7675d1867168f2e6"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-opengl/3.3.2/lwjgl-opengl-3.3.2-natives-windows-x86.jar",
+            "size": 88610,
+            "name": "lwjgl-opengl-3.3.2-natives-windows-x86.jar",
+            "hash": "c3a32053bb4c042489f40936926487cdaf33089185b847fb298b84a62b5703ff"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-opengl/3.3.2/lwjgl-opengl-3.3.2-natives-windows.jar",
+            "size": 101530,
+            "name": "lwjgl-opengl-3.3.2-natives-windows.jar",
+            "hash": "0275a42f91c6bc5f08bdc1f7c7e263058cc99dbed7c710a025e4ad175e9a0edd"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-opengl/3.3.2/lwjgl-opengl-3.3.2-natives-windows-arm64.jar",
+            "size": 83132,
+            "name": "lwjgl-opengl-3.3.2-natives-windows-arm64.jar",
+            "hash": "f8ab8ceac5a5b3e53f59ef4c717c3d4434cb7fa33969f240489d539f572c33b0"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/3.3.2/lwjgl-3.3.2.jar",
+            "size": 786196,
+            "name": "lwjgl-3.3.2.jar",
+            "hash": "f8016606e74f3cafd63eae07b1331f903f999c9f40726c838399a144c3809217"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/3.3.2/lwjgl-3.3.2-natives-linux.jar",
+            "size": 114144,
+            "name": "lwjgl-3.3.2-natives-linux.jar",
+            "hash": "89f53089a5f8a983db25140a1c94c72fe2a8f56feb6ddb597f55b8329ce5b400"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/3.3.2/lwjgl-3.3.2-natives-macos.jar",
+            "size": 60240,
+            "name": "lwjgl-3.3.2-natives-macos.jar",
+            "hash": "62603b9a92c789f0beb8ec25052f278d6f9ce02c6687c8f1afbc7483da54131a"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/3.3.2/lwjgl-3.3.2-natives-macos-arm64.jar",
+            "size": 48270,
+            "name": "lwjgl-3.3.2-natives-macos-arm64.jar",
+            "hash": "ebb8474ad3c19b906649ac41cef62314fd9b355cea5509d9be0c8728db7a6c38"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/3.3.2/lwjgl-3.3.2-natives-windows-x86.jar",
+            "size": 139365,
+            "name": "lwjgl-3.3.2-natives-windows-x86.jar",
+            "hash": "21e6f5c1c68a171398daf7785ffb2797da89242f90d19e24236563f7c0b1f7e0"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/3.3.2/lwjgl-3.3.2-natives-windows.jar",
+            "size": 164993,
+            "name": "lwjgl-3.3.2-natives-windows.jar",
+            "hash": "ebc65354b64a33659cc642446dc15c6d62a4bd0ae15c9a6a4a3adbcd71f1f690"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/3.3.2/lwjgl-3.3.2-natives-windows-arm64.jar",
+            "size": 133200,
+            "name": "lwjgl-3.3.2-natives-windows-arm64.jar",
+            "hash": "1575d4e2e789b411b3a193ac04a2c2d53dbc504de80a560578191c1c7d79e5ee"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/com/miglayout/miglayout/3.7.4/miglayout-3.7.4.jar",
+            "size": 201819,
+            "name": "miglayout-3.7.4.jar",
+            "hash": "f3bf5ab4041767da532e11e78a49a183da499d1a54ba539232d833b75f965667"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/jboss/aerogear/aerogear-otp-java/1.0.0/aerogear-otp-java-1.0.0.jar",
+            "size": 11837,
+            "name": "aerogear-otp-java-1.0.0.jar",
+            "hash": "161b18950d103fe0325b2dc897f0c121f663cac94b5742cd62b97a9b36f15b63"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/com/github/kwhat/jnativehook/2.2.2/jnativehook-2.2.2.jar",
+            "size": 673028,
+            "name": "jnativehook-2.2.2.jar",
+            "hash": "2c7904423bc680af02d9ea9557ae233c35199e302d072773a9d0304b568acd41"
+        },
+        {
+            "path": "https://repo.runelite.net/net/runelite/pushingpixels/trident/1.5.00/trident-1.5.00.jar",
+            "size": 79726,
+            "name": "trident-1.5.00.jar",
+            "hash": "3214e1c23d549d5d67c91da4da1ef33c5248470bb824f91cbe8f9e0beea59eef"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+            "size": 19936,
+            "name": "jsr305-3.0.2.jar",
+            "hash": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/com/fifesoft/autocomplete/3.1.1/autocomplete-3.1.1.jar",
+            "size": 153177,
+            "name": "autocomplete-3.1.1.jar",
+            "hash": "c28575ea4256ce6fce57e820fd467b851c2bd4d816c8c51c24699ef832f91f7d"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/com/fifesoft/rsyntaxtextarea/3.1.2/rsyntaxtextarea-3.1.2.jar",
+            "size": 1209918,
+            "name": "rsyntaxtextarea-3.1.2.jar",
+            "hash": "5333ffa1166c54853d784943c5c44326a5e27e1613de2c07819ae12afe207097"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.2.9/logback-core-1.2.9.jar",
+            "size": 454201,
+            "name": "logback-core-1.2.9.jar",
+            "hash": "4a9ef7ed809b1fbc6992bf87d404087c247e7a9766e25bb84377b58ed5c9eb58"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar",
+            "size": 4617,
+            "name": "failureaccess-1.0.1.jar",
+            "hash": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+            "size": 2199,
+            "name": "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+            "hash": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar",
+            "size": 230905,
+            "name": "checker-qual-3.8.0.jar",
+            "hash": "c88c2e6a5fdaeb9f26fcf879264042de8a9ee9d376e2477838feaabcfa44dda6"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar",
+            "size": 13854,
+            "name": "error_prone_annotations-2.5.1.jar",
+            "hash": "ff80626baaf12a09342befd4e84cba9d50662f5fcd7f7a9b3490a6b7cf87e66c"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar",
+            "size": 8781,
+            "name": "j2objc-annotations-1.3.jar",
+            "hash": "21af30c92267bd6122c0e0b4d20cccb6641a37eaf956c6540ec471d584e64a7b"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar",
+            "size": 2497,
+            "name": "javax.inject-1.jar",
+            "hash": "91c77044a50c481636c32d916fd89c9118a72195390452c81065080f957de7ff"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar",
+            "size": 4467,
+            "name": "aopalliance-1.0.jar",
+            "hash": "0addec670fedcd3f113c5c8091d783280d23f75e3acb841b61a9cdb079376a08"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
+            "size": 11369,
+            "name": "reactive-streams-1.0.3.jar",
+            "hash": "1dee0481072d19c929b623e155e14d2f6085dc011529a0a0dbefc84cf571d865"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar",
+            "size": 577742,
+            "name": "commons-lang3-3.11.jar",
+            "hash": "4ee380259c068d1dbe9e84ab52186f2acd65de067ec09beff731fca1697fdb16"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.jar",
+            "size": 284184,
+            "name": "commons-codec-1.10.jar",
+            "hash": "4241dfa94e711d435f29a4604a3e2de5c4aa3c165e23bd066be6fc1fc4309569"
+        },
+        {
+            "path": "https://repo.maven.apache.org/maven2/org/json/json/20090211/json-20090211.jar",
+            "size": 45944,
+            "name": "json-20090211.jar",
+            "hash": "055be110a570f9cda3eba8d70a006ff46c77a048bc67868524879211c48b330a"
+        },
+        {
+            "path": "https://raw.githubusercontent.com/RuneSpawn/runespawn-hosting/master/snapshot/runelite-client-1.0.16-STABLE.jar",
+            "size": 18519060,
+            "name": "runelite-client-1.0.16-STABLE.jar",
+            "hash": "f03982668bdfbe894f37431074862f5615e0c14f95f7aec35b4e9c2fd55a41f7"
+        }
+    ]
+}
