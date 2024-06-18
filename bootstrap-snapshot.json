@@ -198,37 +198,37 @@
     "projectVersion": "1.0.16-STABLE",
     "artifacts": [
         {
-            "path": "https://raw.githubusercontent.com/RuneSpawn/runespawn-hosting/master/snapshot/runescape-api-1.0.16-STABLE.jar",
+            "path": "https://raw.githubusercontent.com/near-edge-spawn/edgespawn-hosting/master/snapshot/runescape-api-1.0.16-STABLE.jar",
             "size": 132579,
             "name": "runescape-api-1.0.16-STABLE.jar",
             "hash": "ca303f5d22068d60f52294e0548fdbc5ada847363e8566c52f8fd9dca4a9504d"
         },
         {
-            "path": "https://raw.githubusercontent.com/RuneSpawn/runespawn-hosting/master/snapshot/runelite-api-1.0.16-STABLE.jar",
+            "path": "https://raw.githubusercontent.com/near-edge-spawn/edgespawn-hosting/master/snapshot/runelite-api-1.0.16-STABLE.jar",
             "size": 1430895,
             "name": "runelite-api-1.0.16-STABLE.jar",
             "hash": "ff9a1b9b75aec384f58158c286269553275292a193b5b0b7c01e7fec7e0115d3"
         },
         {
-            "path": "https://raw.githubusercontent.com/RuneSpawn/runespawn-hosting/master/snapshot/http-api-1.0.16-STABLE.jar",
+            "path": "https://raw.githubusercontent.com/near-edge-spawn/edgespawn-hosting/master/snapshot/http-api-1.0.16-STABLE.jar",
             "size": 97145,
             "name": "http-api-1.0.16-STABLE.jar",
             "hash": "45fda37939a14f9d5e47d17e5a5aad8d613d2d63391c8dd2f0f485a0b85877f5"
         },
         {
-            "path": "https://raw.githubusercontent.com/RuneSpawn/runespawn-hosting/master/snapshot/runespawn-public-plugins-1.0.16-STABLE.jar",
+            "path": "https://raw.githubusercontent.com/near-edge-spawn/edgespawn-hosting/master/snapshot/runespawn-public-plugins-1.0.16-STABLE.jar",
             "size": 6026,
             "name": "runespawn-public-plugins-1.0.16-STABLE.jar",
             "hash": "03ad38fbc4e8607425c427ef6066fe1822e307c9142993a60950c4722f729890"
         },
         {
-            "path": "https://raw.githubusercontent.com/RuneSpawn/runespawn-hosting/master/snapshot/runespawn-http-api-client-1.0.16-STABLE.jar",
+            "path": "https://raw.githubusercontent.com/near-edge-spawn/edgespawn-hosting/master/snapshot/runespawn-http-api-client-1.0.16-STABLE.jar",
             "size": 31081,
             "name": "runespawn-http-api-client-1.0.16-STABLE.jar",
             "hash": "1f9ba77a7ea730664c8f3e64058cac8f7d37179da7e82faecd5bb9e21beefb0e"
         },
         {
-            "path": "https://raw.githubusercontent.com/RuneSpawn/runespawn-hosting/master/snapshot/runelite-jshell-1.0.16-STABLE.jar",
+            "path": "https://raw.githubusercontent.com/near-edge-spawn/edgespawn-hosting/master/snapshot/runelite-jshell-1.0.16-STABLE.jar",
             "size": 23348,
             "name": "runelite-jshell-1.0.16-STABLE.jar",
             "hash": "c43ca16787899a1ec20ed2f9350e92e35908cd8d762e21788b1140fde9a5ef51"
@@ -372,7 +372,7 @@
             "hash": "02f291e5d1243dc143496e3cbbb40a1ced47aa58f2d633d3e38780cd068d5074"
         },
         {
-            "path": "https://raw.githubusercontent.com/RuneSpawn/runespawn-hosting/master/snapshot/runespawn-game-api-jvm-0.1.0.jar",
+            "path": "https://raw.githubusercontent.com/near-edge-spawn/edgespawn-hosting/master/snapshot/runespawn-game-api-jvm-0.1.0.jar",
             "size": 1348794,
             "name": "runespawn-game-api-jvm-0.1.0.jar",
             "hash": "b4256e23fcb0b3df3c952f2016b9ac506e30d471a076d93aaf3d40129c539efe"
@@ -822,7 +822,7 @@
             "hash": "055be110a570f9cda3eba8d70a006ff46c77a048bc67868524879211c48b330a"
         },
         {
-            "path": "https://raw.githubusercontent.com/RuneSpawn/runespawn-hosting/master/snapshot/runelite-client-1.0.16-STABLE.jar",
+            "path": "https://raw.githubusercontent.com/near-edge-spawn/edgespawn-hosting/master/snapshot/runelite-client-1.0.16-STABLE.jar",
             "size": 18519060,
             "name": "runelite-client-1.0.16-STABLE.jar",
             "hash": "f03982668bdfbe894f37431074862f5615e0c14f95f7aec35b4e9c2fd55a41f7"

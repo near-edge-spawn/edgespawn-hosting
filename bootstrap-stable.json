@@ -191,31 +191,31 @@
     "projectVersion": "1.0.16-STABLE",
     "artifacts": [
         {
-            "path": "https://raw.githubusercontent.com/RuneSpawn/runespawn-hosting/master/stable/runescape-api-1.0.16-STABLE.jar",
+            "path": "https://raw.githubusercontent.com/near-edge-spawn/edgespawn-hosting/master/stable/runescape-api-1.0.16-STABLE.jar",
             "size": 129734,
             "name": "runescape-api-1.0.16-STABLE.jar",
             "hash": "fee14a7a314b43ad3186e6ea65cd277c883fbf6df5973704a63fefe1978c5cf1"
         },
         {
-            "path": "https://raw.githubusercontent.com/RuneSpawn/runespawn-hosting/master/stable/runelite-api-1.0.16-STABLE.jar",
+            "path": "https://raw.githubusercontent.com/near-edge-spawn/edgespawn-hosting/master/stable/runelite-api-1.0.16-STABLE.jar",
             "size": 1417611,
             "name": "runelite-api-1.0.16-STABLE.jar",
             "hash": "9e0286a24a0ba0ea0ca569d7caee1ff95373b8224b19d00a7bcb066095ba73db"
         },
         {
-            "path": "https://raw.githubusercontent.com/RuneSpawn/runespawn-hosting/master/stable/http-api-1.0.16-STABLE.jar",
+            "path": "https://raw.githubusercontent.com/near-edge-spawn/edgespawn-hosting/master/stable/http-api-1.0.16-STABLE.jar",
             "size": 95416,
             "name": "http-api-1.0.16-STABLE.jar",
             "hash": "907a5fa2279a93dca19c5e0ebb755ef85834a7c9d0dc9b1042e1ea974e8f4fd9"
         },
         {
-            "path": "https://raw.githubusercontent.com/RuneSpawn/runespawn-hosting/master/stable/runespawn-http-api-1.0.16-STABLE.jar",
+            "path": "https://raw.githubusercontent.com/near-edge-spawn/edgespawn-hosting/master/stable/runespawn-http-api-1.0.16-STABLE.jar",
             "size": 556399,
             "name": "runespawn-http-api-1.0.16-STABLE.jar",
             "hash": "1959d5349b364ab20861c0c58dae5b165ae44520482559696827f144ff888289"
         },
         {
-            "path": "https://raw.githubusercontent.com/RuneSpawn/runespawn-hosting/master/stable/runelite-jshell-1.0.16-STABLE.jar",
+            "path": "https://raw.githubusercontent.com/near-edge-spawn/edgespawn-hosting/master/stable/runelite-jshell-1.0.16-STABLE.jar",
             "size": 22950,
             "name": "runelite-jshell-1.0.16-STABLE.jar",
             "hash": "45263cf73d03229aa00d27eaf03d29bb8f93cd700a6ce8bff10bef66b0d87c33"
@@ -773,7 +773,7 @@
             "hash": "055be110a570f9cda3eba8d70a006ff46c77a048bc67868524879211c48b330a"
         },
         {
-            "path": "https://raw.githubusercontent.com/RuneSpawn/runespawn-hosting/master/stable/runelite-client-1.0.16-STABLE.jar",
+            "path": "https://raw.githubusercontent.com/near-edge-spawn/edgespawn-hosting/master/stable/runelite-client-1.0.16-STABLE.jar",
             "size": 18320457,
             "name": "runelite-client-1.0.16-STABLE.jar",
             "hash": "16c4443b23611fcf765a798e2f2c65fc3b282c176d40d89d57ef033c51651a04"
